@@ -30,3 +30,20 @@
 .product-section__item {
     margin-bottom: 80px;
 }
+
+
+@media screen and (max-width: 360px) {
+    .product-section__title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .product-section__item + .product-section__item {
+        margin-top: 24px;
+    }
+
+    .product-section__item {
+        margin-bottom: 0;
+    }
+
+}
