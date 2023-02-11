@@ -1,0 +1,32 @@
+.product-section {
+    padding: 100px 0;
+    background-image: url(../../assets/images/product-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right -90px top;
+}
+
+.product-section__title {
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #242424;
+}
+
+.product-section__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.product-section__item {
+    margin-bottom: 80px;
+}
