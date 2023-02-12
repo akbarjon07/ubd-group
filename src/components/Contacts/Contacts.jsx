@@ -3,23 +3,23 @@ import { useState, useEffect } from 'react'
 
 export const Contacts = () => {
 
-    const [info, setInfo] = useState([])
+    // const [info, setInfo] = useState([])
 
-    useEffect(() => {
-        async function fetchInfo () {
-            const res = await fetch('http://api.ubdgroup.uz/api/v2/settings', {
-                method: 'GET',
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json'
-                }
-            });
-            const result = await res.json();
-            console.log(res)
-            setInfo(result)
-        }
-        fetchInfo ()
-    }, [])
+    // useEffect(() => {
+    //     async function fetchInfo () {
+    //         const res = await fetch('http://api.ubdgroup.uz/api/v2/settings', {
+    //             method: 'GET',
+    //             headers: {
+    //                 'Accept': 'application/json',
+    //                 'Content-Type': 'application/json'
+    //             }
+    //         });
+    //         const result = await res.json();
+    //         console.log(res)
+    //         setInfo(result)
+    //     }
+    //     fetchInfo ()
+    // }, [])
 
 
 
