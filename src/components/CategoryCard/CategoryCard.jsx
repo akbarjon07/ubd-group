@@ -4,7 +4,7 @@ export const CategoryCard = (props) => {
 
     return (
         <div className='category-card'>
-            <img className='category-card__img' src={props.img} alt="img" width={1120} height={720}/>
+            <img className='category-card__img' src={props.img} alt="img"/>
 
             <div className='category-card__wrapper'>
                 <h4 className='category-card___title'>{props.title}</h4>
