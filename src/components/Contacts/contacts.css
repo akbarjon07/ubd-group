@@ -103,3 +103,73 @@
     color: white;
     font-size: 1rem;
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .contact-section__wrapper {
+        flex-direction: column;
+    }
+
+    .contact-section__left {
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-section__title {
+        text-align: center;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    /* .contact-section__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .contact-section__form-wrapper {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .input {
+        width: 360px;
+        margin-bottom: 16px;
+    }
+
+    .contact-section__message-input {
+        width: 360px;
+    }
+
+    .contact-section__btn {
+        left: 135px ;
+    }
+
+    .contact-section__contact-wrapper {
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .contact-section__mail-wrapper {
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .prop {
+        text-align: center;
+    }
+
+    .contact-section__address-map {
+        margin-left: 28%;
+    }
+}

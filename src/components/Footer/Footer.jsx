@@ -22,15 +22,15 @@ export const Footer = () => {
                     </li>
 
                     <li className='footer__nav-item'>
-                        <NavLink className='footer__nav-link' to='#'>Продукция</NavLink>
+                        <NavLink className='footer__nav-link res-link' to='#'>Продукция</NavLink>
 
-                        <span className='footer__nav-span'></span>
+                        <span className='footer__nav-span res-span'></span>
                     </li>
 
                     <li className='footer__nav-item'>
                         <NavLink className='footer__nav-link' to='#'>Контакты</NavLink>
 
-                        <span className='footer__nav-span res-span'></span>
+                        <span className='footer__nav-span'></span>
                     </li>
 
                     <li className='footer__nav-item'>

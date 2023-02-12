@@ -90,7 +90,7 @@
 }
 
 
-@media screen and (min-width: 320px) and  (max-width: 480px){
+@media screen and (min-width: 320px) and (max-width: 480px){
     .footer__span {
         margin-bottom: 40px;
         width: 360px;
@@ -109,6 +109,10 @@
     .footer__nav-link {
         font-size: 14px;
         line-height: 16px;
+    }
+
+    .res-link {
+        margin: 0;
     }
 
     .res-span {
