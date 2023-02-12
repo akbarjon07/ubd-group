@@ -55,3 +55,65 @@
     color: #FB4A7B;
     border: 1px solid #FB4A7B;
 }
+
+.nav-btn {
+    display: none;
+    padding: 5px;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 1.8rem;
+}
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .header__container {
+        justify-content: space-between;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .nav-btn {
+        display: block;
+    }
+
+    .header__nav {
+        position: fixed;
+		top: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
+		gap: 1.5rem;
+		background-color: white;
+        opacity: 1;
+        display: none;
+        border: 1px solid transparent;
+        border-radius: 15px;
+    }
+
+    .header__nav-list {
+        margin-top: 80px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__nav-item + .header__nav-item {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .responsive_nav {
+        display: block;
+    }
+
+    .header__close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+}
