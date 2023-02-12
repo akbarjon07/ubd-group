@@ -28,7 +28,7 @@ export const Footer = () => {
                     </li>
 
                     <li className='footer__nav-item'>
-                        <NavLink className='footer__nav-link' to='#'>Контакты</NavLink>
+                        <NavLink className='footer__nav-link res-con-link' to='#'>Контакты</NavLink>
 
                         <span className='footer__nav-span'></span>
                     </li>

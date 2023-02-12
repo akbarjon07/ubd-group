@@ -50,15 +50,14 @@
 }
 
 
-@media screen and (max-width: 360px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
     .about-section__title {
-        text-align: left;
         font-size: 24px;
         line-height: 28px;
     }
 
     .about-section__desc {
-        width: 360px;
+        width: 330px;
         font-size: 16px;
     }
 }

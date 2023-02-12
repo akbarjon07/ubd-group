@@ -53,13 +53,13 @@ export const Contacts = () => {
                             <div className='contact-section__phone-wrapper'>
                                 <p className='contact-section__phone heading'>Телефон:</p>
 
-                                <p className='contact-section__phone-number prop'>+998 97 703-70-80 </p>
+                                <a className='contact-section__phone-number prop' href='tel:+998 97 703-70-80'>+998 97 703-70-80</a>
                             </div>
 
                             <div className='contact-section__mail-wrapper'>
                                 <p className='contact-section__mail heading'>Почта:</p>
 
-                                <p className='contact-section__mail-name prop'>info@ubdgroup.uz</p>
+                                <a className='contact-section__mail-name prop' href='mailto:info@ubdgroup.uz'>info@ubdgroup.uz</a>
                             </div>
                         </div>
 

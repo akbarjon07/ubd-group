@@ -26,3 +26,9 @@
     line-height: 150%;
     color: #828282;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .product-card__wrapper {
+        width: 330px;
+    }
+}
