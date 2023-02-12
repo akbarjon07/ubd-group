@@ -1,5 +1,11 @@
+.category-card__img {
+    display: block;
+    position: relative;
+}
+
 .category-card__wrapper {
-    width: 500px;
+    width: 600px;
+    height: 182px;
     padding: 12px 24px;
     position: relative;
     bottom: 250px;

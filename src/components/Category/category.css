@@ -1,3 +1,10 @@
+.category-section {
+    background-image: url(../../assets/images/cat-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left -50px top 200px;
+}
+
 .category-section__list {
     margin: 0;
     padding: 0;
@@ -9,5 +16,5 @@
 }
 
 .category-section__item + .category-section__item {
-    margin-top: 40px;
+    margin-top: -150px;
 }

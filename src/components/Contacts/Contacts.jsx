@@ -1,6 +1,27 @@
 import './contacts.css'
+import { useState, useEffect } from 'react'
 
 export const Contacts = () => {
+
+    const [info, setInfo] = useState([])
+
+    // useEffect(() => {
+    //     async function fetchInfo () {
+    //         const res = await fetch('http://api.ubdgroup.uz/api/v2/settings', {
+    //             method: 'GET',
+    //             headers: {
+    //                 'Accept': 'application/json',
+    //                 'Content-Type': 'application/json'
+    //             }
+    //         });
+    //         const result = await res.json();
+    //         setInfo(result)
+    //     }
+    //     fetchInfo ()
+    // }, [])
+
+    console.log(info)
+
 
     return (
         <section className='contact-section'>
@@ -32,7 +53,7 @@ export const Contacts = () => {
                             <div className='contact-section__phone-wrapper'>
                                 <p className='contact-section__phone heading'>Телефон:</p>
 
-                                <p className='contact-section__phone-number prop'>+998 97 703-70-80</p>
+                                <p className='contact-section__phone-number prop'>+998 97 703-70-80 </p>
                             </div>
 
                             <div className='contact-section__mail-wrapper'>
